@@ -29,7 +29,7 @@ body{
 }
 
 .posts {
-	border: 1px solid #ddd;
+	/* border: 1px solid #ddd; */
 	border-radius: 5px;
 	margin-bottom: 80px;
 	overflow: hidden;
@@ -43,7 +43,7 @@ body{
 	background-color: #f9f9f9;
 	padding: 10px;
     margin: 30px;
-    box-shadow: 5px 10px 10px grey;;
+    box-shadow: 5px 10px 10px grey;
 }
 
 .post:hover {
@@ -82,19 +82,17 @@ span{
     font-size: 12px;
     /* margin-left: 510px; */
 }
-.dislike-counter{
-    margin-left: 30px;
-}
+
 .like-button{
     width: 50px;
     margin-left: 500px;
     margin-top: 20px;
     font-family:monospace;
 }
-.dislike-button{
-    width: 70px;
-    margin-left: 10px;
-    font-family:monospace;
+.comment-button{
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .tracking-in-expand-fwd-bottom {
 	-webkit-animation: tracking-in-expand-fwd-bottom 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -138,6 +136,32 @@ span{
 }
 .post-text{
   margin-top: 20px;
+}
+.comment-section{
+  margin-top: 15px;
+  padding-left: 10px;
+  box-shadow: 0px 1px 10px grey;
+  padding-bottom: 15px;
+}
+.comment{
+  margin-top: 10px;
+  padding: 5px;
+  padding-bottom: 30px;
+}
+.comment-input-bar{
+  margin-left: 100px;
+  width: calc(100% - 250px);
+}
+.comment-submit-button{
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+.comment-cancel-button{
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 @media screen and (max-width: 768px) {
