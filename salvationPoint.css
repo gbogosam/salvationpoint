@@ -141,6 +141,7 @@ span{
   margin-top: 15px;
   padding-left: 10px;
   box-shadow: 0px 1px 10px grey;
+  /* padding-bottom: 15px; */
 }
 .comment{
   margin-top: 10px;
@@ -174,13 +175,18 @@ span{
 	
 	.input-bar input {
 		padding: 5px;
+    		height: 50px; 
 	}
 	
 	.input-bar button {
 		padding: 5px;
 		margin-left: 10px;
+    height: 40px;
 	}
 	nav h1{
-		font-size: 22px;
-}
+		font-size:35px;
+  }
+  .like-button{
+    margin-left: auto;
+  }
 }
