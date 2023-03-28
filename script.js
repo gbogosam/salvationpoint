@@ -36,9 +36,6 @@ function createPostElement(text) {
   const commentSection = document.createElement('div');
   commentSection.classList.add('comment-section');
 
-  const commentHeading = document.createElement('small');
-  commentHeading.textContent = 'Comment Section';
-  commentHeading.classList.add('comment-heading');
 
   
   postElement.appendChild(userPosted);
@@ -47,7 +44,6 @@ function createPostElement(text) {
   postElement.appendChild(commentButton);
   postElement.appendChild(counterDiv);
   postElement.appendChild(commentSection);
-  commentSection.appendChild(commentHeading);
 
   postCard.appendChild(postElement);
 
@@ -60,7 +56,6 @@ function createPostElement(text) {
   });
 
   commentButton.addEventListener('click', () => {
-
 
     const commentInput = document.createElement('input');
     commentInput.type = 'text';
