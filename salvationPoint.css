@@ -141,6 +141,7 @@ span{
   margin-top: 15px;
   padding-left: 10px;
   box-shadow: 0px 1px 10px grey;
+  /* padding-bottom: 15px; */
 }
 .comment{
   margin-top: 10px;
@@ -163,7 +164,7 @@ span{
   padding-right: 5px;
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 768px) {
 	.container {
 		padding: 10px;
 	}
@@ -174,21 +175,21 @@ span{
 	
 	.input-bar input {
 		padding: 5px;
-    		height: 50px; 
+    height: 50px; 
 	}
 	
 	.input-bar button {
 		padding: 5px;
 		margin-left: 10px;
-    		height: 40px;
+    height: 40px;
 	}
 	nav h1{
 		font-size:35px;
- 	}
- 	.like-button{
-    		margin-left: auto;
- 	}
+  }
+  .like-button{
+    margin-left: auto;
+  }
 	body{
-		background-color: white;
+	background-color: #fff;
 	}
 }
