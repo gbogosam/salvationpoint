@@ -164,7 +164,7 @@ span{
   padding-right: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1900px) {
 	.container {
 		padding: 10px;
 	}
