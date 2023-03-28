@@ -146,6 +146,7 @@ span{
 .comment{
   margin-top: 10px;
   padding: 5px;
+  padding-bottom: 30px;
 }
 .comment-input-bar{
   margin-left: 100px;
